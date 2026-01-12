@@ -1,4 +1,4 @@
-# MASQUE STYLISÉ VIA RA + CHEVEUX (mediapipe)
+# MASQUE STYLISÉ VIA RA + CHEVEUX
 
 Filtre AR en temps réel (webcam) : il applique
 1) un **masque stylisé** (PNG RGBA) sur le visage, et  
