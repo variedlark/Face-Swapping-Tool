@@ -29,7 +29,7 @@ Filtre AR en temps réel (webcam) : il applique
 ### 1) Cloner
 ```bash
 git clone https://github.com/variedlark/Face-Swapping-Tool.git
-cd <Face-Swapping-Tool>
+cd Face-Swapping-Tool
 ```
 
 ### 2) Créer et activer un venv
