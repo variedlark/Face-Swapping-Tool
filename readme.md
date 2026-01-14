@@ -5,7 +5,7 @@ A powerful and easy-to-use face swapping application that leverages advanced dee
 ## Features
 
 - **High-Quality Face Swapping**: Advanced AI-powered face detection and swapping
-- **Multiple Format Support**: Works with images (PNG, JPG, etc.) and video files
+- **Format Support**: Works with PNG images
 - **Real-time Processing**: Fast processing with optimized algorithms
 - **User-Friendly Interface**: Simple and intuitive GUI for easy usage
 - **Cross-Platform**: Supports macOS, Windows, and Linux
@@ -171,25 +171,21 @@ Choose the setup instructions for your operating system:
 
 ## Quick Start
 
-1. **Launch the Application**:
+1. **Select Images/Video**:
+   - Choose the source image (face to swap from)
+   - Make sure to place it in the "assets" folder
+   - Make sure to name it "mask.png"
+  
+2. **Create The Wig**:
    ```bash
-   python main.py
+   python prepare_wig.py
    ```
 
-2. **Select Images/Video**:
-   - Choose the source image (face to swap from)
-   - Choose the target image/video (where to swap the face)
-
-3. **Configure Settings**:
-   - Adjust quality parameters
-   - Set output format and location
-
-4. **Process**:
-   - Click "Start" to begin face swapping
-   - Wait for processing to complete
-
-5. **Save Results**:
-   - Save the processed image/video to your desired location
+3. **Run The Tool**:
+   ```bash
+   python run_filter.py
+   ```
+4- **Enjoy**
 
 ## GPU Support (NVIDIA)
 
