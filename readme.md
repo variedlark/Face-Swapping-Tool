@@ -55,9 +55,14 @@ Choose the setup instructions for your operating system:
    pip install -r requirements.txt
    ```
 
-6. **Run the Application**:
+6. **Create The Wig**:
    ```bash
-   python main.py
+   python prepare_wig.py
+   ```
+
+7. **Run The Tool**:
+   ```bash
+   python run_filter.py
    ```
 
 ### Windows
@@ -91,9 +96,14 @@ Choose the setup instructions for your operating system:
    pip install -r requirements.txt
    ```
 
-6. **Run the Application**:
+6. **Create The Wig**:
    ```cmd
-   python main.py
+   python prepare_wig.py
+   ```
+
+7. **Run The Tool**:
+   ```cmd
+   python run_filter.py
    ```
 
 ### Linux (Ubuntu/Debian-based)
@@ -128,9 +138,14 @@ Choose the setup instructions for your operating system:
    pip install -r requirements.txt
    ```
 
-6. **Run the Application**:
+6. **Create The Wig**:
    ```bash
-   python main.py
+   python prepare_wig.py
+   ```
+
+7. **Run The Tool**:
+   ```bash
+   python run_filter.py
    ```
 
 ### Linux (Fedora/RHEL-based)
@@ -164,9 +179,14 @@ Choose the setup instructions for your operating system:
    pip install -r requirements.txt
    ```
 
-6. **Run the Application**:
+6. **Create The Wig**:
    ```bash
-   python main.py
+   python prepare_wig.py
+   ```
+
+7. **Run The Tool**:
+   ```bash
+   python run_filter.py
    ```
 
 ## Quick Start
